@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/script/index.js" defer></script>
     <title>Delivery Food</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
                         <img src="/img/icons/user.png" alt="user">
                             Войти
                         </button>
-                        <button class="btn btn-outline">
+                        <button class="btn btn-outline" id="cart-button">
                             <img src="/img/icons/shopping-cart.png" alt="cart">
                             Корзина
                         </button>
@@ -50,7 +51,7 @@
                         <input class="products-header--search" placeholder="Поиск блюд и ресторанов">
                     </div>
 
-                    <div class="products-wrapper">
+                    <div class="products-wrapper" id="rests-container">
                         <a href="/goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="/img/rests/1.jpg" alt="1">
@@ -286,5 +287,6 @@
             </div>
         </footer>
     </div>
+    
 </body>
 </html>
