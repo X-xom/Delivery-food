@@ -1,5 +1,5 @@
 # Deliveryfood - online food delivery service.
-## Link - https://x-xom.github.io/js---------/Delivery-food/
+## Link - https://x-xom.github.io/Delivery-food/
 
 
 ## Project Setup
